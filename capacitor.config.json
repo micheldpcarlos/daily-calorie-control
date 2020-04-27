@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "daily-calorie-control",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

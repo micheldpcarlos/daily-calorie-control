@@ -1,0 +1,7 @@
+{
+  "name": "daily-calorie-control",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
