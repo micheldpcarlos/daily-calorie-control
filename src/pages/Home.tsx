@@ -1,24 +1,15 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import React from 'react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import { IonContent, IonPage } from "@ionic/react";
+
+import React from "react";
+import "./Home.css";
+import HomeToolbar from "../components/HomeToolbar";
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <HomeToolbar></HomeToolbar>
       <IonContent>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-            <a href="https://www.freepik.com/free-photos-vectors/halloween">Halloween vector created by vectorpouch - www.freepik.com</a>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+
       </IonContent>
     </IonPage>
   );
